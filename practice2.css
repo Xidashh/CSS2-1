@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstConteiner {
+    display: flex;
+    width: 1140px;
+    padding: 12px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstFoto {
+    width: 146.683px;
+    height: 21.023px;
+    display: flex;
+    padding: 13.489px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.698px;
+
+}
+
+#firstNav {
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#firstInput {
+    color: #AC00FF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #AC00FF;
+    background: #E9D7FE;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#secondConteiner {
+    display: flex;
+    width: 841px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 136px 865px 630px 214px;
+}
+
+#firstTiTle {
+    color: #323232;
+    font-family: Impact;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    /* 115.625% */
+}
+
+#firstPharagrap {
+    color: #323232;
+    font-family: "Inria Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+#secontInput {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 204px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #5C3BAE;
+}
+
+#secondFoto {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+#thirdConteiner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+#secondPharagrap {
+    color: #4D3491;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+#thirdFoto {
+    height: 761px;
+    flex-shrink: 0;
+    display: flex;
+    width: 1311px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
